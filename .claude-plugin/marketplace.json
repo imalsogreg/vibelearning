@@ -7,7 +7,7 @@
   "plugins": [
     {
       "name": "vibelearn",
-      "source": "./plugins/vibelearn.md",
+      "source": "./plugins/vibelearn/vibelearn.md",
       "description": "Learning plan generator and executor",
       "version": "0.1",
       "author": {
