@@ -1,0 +1,18 @@
+{
+  "name": "vibelearning",
+  "owner": {
+    "name": "imalsogreg",
+    "email": "imalsogreg+vibelearning@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "vibelearn",
+      "source": "./plugins/vibelearn.md",
+      "description": "Learning plan generator and executor",
+      "version": "0.1",
+      "author": {
+        "name": "Greg"
+      }
+    }
+  ]
+}
