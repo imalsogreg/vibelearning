@@ -1,5 +1,16 @@
 ## Installation
 
-```bash
-TMPFILE=$(mktemp) && (cat ~/.claude/settings.json 2>/dev/null || echo '{}') | jq '.extraKnownMarketplaces.vibelearning = {source: {source: "github", repo: "imalsogreg/vibelearning"}} | .enabledPlugins."vibelearn@vibelearning" = true' > "$TMPFILE" && mv "$TMPFILE" ~/.claude/settings.json
+Start the `claude` CLI.
+
+Then run
+
 ```
+/plugin marketplace add imalsogreg/vibelearning
+```
+
+to install the marketplace and
+
+```
+/plugin install vibelearn@vibelearn
+```
+

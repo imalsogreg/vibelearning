@@ -8,6 +8,10 @@ description: Run a tutoring session
  - Use the beads tool `bd` to track the my learning progress
    and your own generation of a learning plan
  - `bd quickstart` if you're not familiar with the `bd` interface
+ - We will enter and exit our session many times - be sure to check if
+   a learning plan already exists. Use the context from existing `bd`
+   tickets to pick up where we left off, if such tickets and the plan
+   already exist.
 
 ## Your task
 
